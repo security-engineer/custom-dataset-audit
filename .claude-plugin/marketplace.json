@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "custom-dataset-audit",
+  "owner": {
+    "name": "security-engineer",
+    "url": "https://github.com/security-engineer"
+  },
+  "metadata": {
+    "description": "Tools for auditing binary text benchmarks (human-vs-AI detection, authorship) for dataset shortcuts.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "dataset-shortcut-audit",
+      "description": "Audit binary text benchmarks for dataset shortcuts before trusting high AUROC — bundled shortcut-battery CLI + 7-family auditing methodology skill.",
+      "version": "0.1.0",
+      "author": {
+        "name": "security-engineer"
+      },
+      "category": "data",
+      "source": "./plugins/dataset-shortcut-audit"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "dataset-shortcut-audit",
+  "version": "0.1.0",
+  "description": "Audit binary text benchmarks (human-vs-AI detectors, authorship) for dataset shortcuts before trusting high AUROC. Ships a dataset-agnostic shortcut-battery CLI plus the 7-family auditing methodology skill.",
+  "author": {
+    "name": "security-engineer"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/security-engineer/custom-dataset-audit",
+  "repository": "https://github.com/security-engineer/custom-dataset-audit",
+  "keywords": [
+    "AIGT detection",
+    "benchmark audit",
+    "dataset shortcuts",
+    "text classification",
+    "AUROC"
+  ],
+  "skills": "skills/"
+}
